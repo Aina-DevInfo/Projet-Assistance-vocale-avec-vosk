@@ -1,0 +1,27 @@
+# Ignorer les fichiers temporaires
+*.tmp
+*.log
+
+# Ignorer les fichiers de configuration
+config.json
+.env
+
+# Ignorer les dossiers de dépendances
+model/
+venv/
+.vscode/
+vosk-api-master/
+
+# Ignorer les fichiers spécifiques
+secret.txt
+*.bak
+Fitia sahala.mp3
+vosk-api-master.zip
+vosk-model-small-fr-0.22.zip
+app_test.py
+app_tts.py
+
+# Ignorer tout le contenu d'un dossier sauf un fichier spécifique
+logs/*
+!logs/keep.log
+
